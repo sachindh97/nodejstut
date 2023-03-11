@@ -26,12 +26,13 @@ app.delete('/deleteuser/:id',(req,res)=>{
 
 app.put('/updateuser/:id',(req,res)=>{
     console.log(req.params,'id params')
-    res.send('user updated ...');
+    res.send('user updated ... pankaj#');
 });
 
 app.listen(3000,()=>{
         console.log('server running');
 });
+
 
 
 
